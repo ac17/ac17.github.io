@@ -65,11 +65,10 @@ h3, h4 { color: #eeb213;}
 #cover-title { color: white;}
 
 .modal-dialog {
-	position: absolute;
+	position: fixed;
 	top: 5%;
 	left: 5%;
 	right: 5%;
-	bottom: 5%;
 }
 
 .modal-content {
