@@ -64,8 +64,15 @@ h3, h4 { color: #eeb213;}
 
 #cover-title { color: white;}
 
-.modal-content {
+.modal-dialog {
 	position: fixed;
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+}
+
+.modal-content {
 	background-color: rgba(0, 0, 0, 0.8);
 	padding: 20px;
 	margin-top: 70px;
@@ -76,8 +83,6 @@ h3, h4 { color: #eeb213;}
 	border-color: white;
 	overflow: scroll;
 	font-size: 16px;
-	top: 10%;
-	height: 80%;
 }
 
 .modal-content a{
