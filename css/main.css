@@ -142,6 +142,10 @@ h3, h4 { color: #eeb213;}
 	background-image: url("../img/ai.jpg");
 }
 
+#pmunc {
+	background-image: url("../img/pmunc.tiff");
+}
+
 .inner-research-images {
 	position: relative;
 	width: 100%;
