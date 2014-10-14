@@ -153,6 +153,14 @@ h3, h4 { color: #eeb213;}
 	background-image: url("../img/pumj.png");
 }
 
+#tavr {
+	background-image: url("../img/tavr.png");
+}
+
+#bell {
+	background-image: url("../img/bell_labs.jpg");
+}
+
 .inner-research-images {
 	position: relative;
 	width: 100%;
