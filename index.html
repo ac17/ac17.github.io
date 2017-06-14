@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet" type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/cover.css">
         <link rel="stylesheet" href="css/main.css">
@@ -33,31 +34,47 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h1 id="cover-title">Angelica Chen</h1>
-        Mathematician, graphic designer, and coding enthusiast.
+        Princeton '17<br>Software engineer, math enthusiast, and long-distance runner
         <!-- MENU -->
         <ul class="bmenu">
         	<li><a href="docs/resume.pdf">R&eacute;sum&eacute;</a></li>
         	<li><a data-toggle="modal" data-target="#research">Research</a></li>
-        	<li><a data-toggle="modal" data-target="#webdev">Web Development</a></li>
+<!--         	<li><a data-toggle="modal" data-target="#webdev">Web Development</a></li> -->
         	<li><a data-toggle="modal" data-target="#contact">Contact</a></li>
         </ul>
+
+        <!-- Create a new panel for software engineering work? -->
 
         <!-- RESEARCH -->
         <div class="modal fade" id="research" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         	<div class="modal-dialog modal-lg">
         		<div class="modal-content">
         			<h2>My Research</h2>
+                    <div class="horbar">
+                    </div><br>
+                    <a href="docs/senior_thesis.pdf"><div class="research-images" id="senior-thesis">
+                        <div class="inner-research-images">
+                            Prediction of depression and suicidality from social media activity
+                        </div>
+                    </div></a>
+                    <h3 class="text-left"><a href="docs/senior_thesis.pdf">Prediction of depression and suicidality from social media activity using deep neural networks</a></h3>
+                    <h4 class="text-left"><em>Princeton University - Senior Thesis</em></h4>
+                    <p class="text-left"><a href="docs/senior_thesis.pdf">Read here</a></p>
+                    <p class="text-left">
+                        <b>Abstract:</b> It's estimated that every 13 minutes, at least one American dies by suicide in the United States, making suicide the 2nd leading cause of death in the 15-34 age group (CDC, 2015). Suicide intervention is now one of the top priorities for public health agencies across the world, but unfortunately our screening efforts are still inadequate. In this study we propose a data-driven artificial intelligence approach towards more accurate and higher coverage screening for both suicidal ideation and depression. We trained deep neural networks on Facebook posts from 158 human subjects to distinguish depressed from non-depressed individuals and to distinguish suicidal from non-suicidal individuals, using their Beck Depression Inventory (BDI) and Columbia-Suicide Severity Rating Scale (C-SSRS) scores as the ground-truth labels. We achieved state-of-the-art accuracy, precision, and recall rates of 96%, 97%, and 94% respectively on the depression prediction task and accuracy, precision, and recall rates of 92%, 98%, and 83% respectively on the suicidality prediction task. In addition, the deep neural networks outperformed both a trained human psychiatrist as well as other standard machine learning-based classifiers on the same tasks. These results demonstrate that it is possible to achieve more accurate and timely screening for depression and suicidal ideation via deep learning, without the need to first seek out a physician or mental healthcare professional. This significantly lessens the time, effort, and money required to seek help, which is particularly important for low-income and marginalized communities with low access to adequate healthcare.
+                    </p>
+
         			<div class="horbar">
         			</div><br>
-                    <div class="research-images" id="meningitis">
+                    <a href="http://www.thelancet.com/journals/langlo/article/PIIS2214-109X(16)30064-X/abstract"><div class="research-images" id="meningitis">
                         <div class="inner-research-images">
-                            Global comparative study of bacterial meningitis seasonality
+                            Seasonal dynamics of bacterial meningitis: a time-series analysis
                         </div>
-                    </div>
-                    <h3 class="text-left">Global Comparative Study of Bacterial Meningitis Seasonality</h3>
+                    </div></a>
+                    <h3 class="text-left"><a href="http://www.thelancet.com/journals/langlo/article/PIIS2214-109X(16)30064-X/abstract">Global Comparative Study of Bacterial Meningitis Seasonality</a></h3>
                     <h4 class="text-left"><em>L'Institut de Recherche pour le D&eacute;veloppement (IRD) - Montpellier, France</em></h4>
         			<p class="text-left">
-                        I'm currently collaborating with Dr. H&eacute;l&egrave;ne Broutin from L'Institut de Recherche pour le D&eacute;veloppement (IRD) in Montpellier, France and Dr. Nicole Basta from Princeton University on a global comparative study of the dynamics of bacterial meningitis. The goal of my project is to compile a global database of bacterial meningitis incidence time series by scraping public health ministry websites/reports (in addition to manual correspondence) and to analyze the seasonality of this data via wavelet analysis, particularly in countries outside of the African meningitis belt. Whereas distinct seasonality patterns have been thoroughly studied in the African meningitis belt, little is known about its dynamics in other regions of the world, making it difficult to tailor vaccination strategies and effectively control the disease. A stronger understanding of the biological and environmental interactions of the various causative agents of meningitis will help us better understand its virulence and epidemiology.
+                        I collaborated with Dr. H&eacute;l&egrave;ne Broutin from L'Institut de Recherche pour le D&eacute;veloppement (IRD) in Montpellier, France and Dr. Nicole Basta from Princeton University to publish a <a href="http://www.thelancet.com/journals/langlo/article/PIIS2214-109X(16)30064-X/abstract">global comparative study of the dynamics of bacterial meningitis</a> in <i>The Lancet Global Health</i>, which I was co-first author of. The goal of my project was to compile a global database of bacterial meningitis incidence time series by scraping public health ministry websites/reports (in addition to manual correspondence) and to analyze the seasonality of this data via wavelet analysis, particularly in countries outside of the African meningitis belt. Whereas distinct seasonality patterns have been thoroughly studied in the African meningitis belt, little is known about its dynamics in other regions of the world, making it difficult to tailor vaccination strategies and effectively control the disease. A stronger understanding of the biological and environmental interactions of the various causative agents of meningitis will help us better understand its virulence and epidemiology.
                     </p>
                     <div class="horbar">
                     </div><br>
@@ -100,7 +117,7 @@
         </div>
 
         <!-- WEB DEV -->
-        <div class="modal fade" id="webdev" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<!--         <div class="modal fade" id="webdev" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <h2>My Web Development Work</h2>
@@ -124,7 +141,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- CONTACT -->
         <div class="modal fade" id="contact" tabindex="-1" role="dialog">
@@ -133,15 +150,15 @@
         			<h2>Contact Me</h2>
         			<div class="horbar">
         			</div><br>
-        			Email: <a href="mailto:ac17@princeton.edu">ac17 [at] princeton.edu</a><br>
+        			Email: <a href="mailto:ac17@princeton.edu">ac17 [at] alumni.princeton.edu</a><br>
         			LinkedIn: <a href="http://lnkd.in/dskVKmT">http://lnkd.in/dskVKmT</a>
         		</div>
         	</div>
         </div>
 
       <footer>
-        <p class="pull-left">&copy; Angelica Chen, 2014</p>
-        <p class="pull-right" id="social-media"><a href="http://lnkd.in/dskVKmT"><i class="fa fa-linkedin-square"></i></a> <a href="https://github.com/ac17"><i class="fa fa-github-square"></i></a> <a href="https://plus.google.com/u/0/102958680937280121389/posts"><i class="fa fa-google-plus-square"></i></a></p>
+        <p class="pull-left">&copy; Angelica Chen, 2017</p>
+        <p class="pull-right" id="social-media"><a href="http://lnkd.in/dskVKmT"><i class="fa fa-linkedin-square"></i></a> <a href="https://github.com/ac17"><i class="fa fa-github-square"></i></a> <a href="mailto:ac17@alumni.princeton.edu"><i class="fa fa-envelope"></i></a></p>
       </footer>
     </div> <!-- /container -->        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
